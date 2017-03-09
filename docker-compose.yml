@@ -1,0 +1,20 @@
+version: "2.1"
+
+services:
+
+  nginx:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    restart: always
+    volumes:
+      #- ./altas.conf:/etc/nginx/conf.d/altas.conf
+      #- ./altas.conf:/etc/nginx/nginx.conf
+      - ./src:/data/website
+    ports:
+      - "8080:80"
+    environment:
+      - NGINX_HOST=atlas.taobao.com
+      - NGINX_PORT=80
+      - NGINX_ROOT=/data/website
+   # command: /bin/bash -c "envsubst < /etc/nginx/conf.d/altas.conf > /etc/nginx/conf.d/default.conf && nginx -g 'daemon off;'"

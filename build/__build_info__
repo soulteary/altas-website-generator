@@ -1,0 +1,55 @@
+Hash: ff666dea17c8d5bf346d
+Version: webpack 2.2.1
+Time: 1874ms
+                    Asset       Size  Chunks                    Chunk Names
+img/icon-product-list.png    64.1 kB          [emitted]         
+   img/img-feature-p1.svg    71.8 kB          [emitted]         
+   img/img-feature-p3.svg    27.7 kB          [emitted]         
+          img/inspire.svg    18.5 kB          [emitted]         
+               img/bg.png     275 kB          [emitted]  [big]  
+   img/img-feature-p2.svg    13.6 kB          [emitted]         
+                   app.js  777 bytes       0  [emitted]         app
+                  app.css     142 kB       0  [emitted]         app
+                .DS_Store    6.15 kB          [emitted]         
+                  core.js     456 kB          [emitted]  [big]  
+               index.html    59.2 kB          [emitted]         
+chunk    {0} app.js, app.css (app) 448 bytes [entry] [rendered]
+    [0] ./src/css/base.less 41 bytes {0} [built]
+    [1] ./src/css/style.less 41 bytes {0} [built]
+    [2] ./src/scripts/index.js 366 bytes {0} [built]
+Child html-webpack-plugin for "index.html":
+                     Asset     Size  Chunks             Chunk Names
+    img/img-feature-p1.svg  71.8 kB          [emitted]  
+    img/img-feature-p2.svg  13.6 kB          [emitted]  
+    img/img-feature-p3.svg  27.7 kB          [emitted]  
+           img/inspire.svg  18.5 kB          [emitted]  
+                index.html    64 kB       0             
+    chunk    {0} index.html 60.7 kB [entry] [rendered]
+        [0] ./src/img/icon-common-p.svg 3.19 kB {0} [built]
+        [1] ./src/img/icon-more-p1.svg 6.41 kB {0} [built]
+        [2] ./src/img/icon-more-p2.svg 2.52 kB {0} [built]
+        [3] ./src/img/icon-more-p3.svg 4.06 kB {0} [built]
+        [4] ./src/img/icon-more-p4.svg 8.1 kB {0} [built]
+        [5] ./src/img/icon-tech-d.svg 3.23 kB {0} [built]
+        [6] ./src/img/icon-tech-p.svg 3.91 kB {0} [built]
+        [7] ./src/img/img-feature-p1.svg 68 bytes {0} [built]
+        [8] ./src/img/img-feature-p2.svg 68 bytes {0} [built]
+        [9] ./src/img/img-feature-p3.svg 68 bytes {0} [built]
+       [10] ./src/img/inspire.svg 61 bytes {0} [built]
+       [11] ./src/img/logo.svg 10.8 kB {0} [built]
+       [12] ./~/.2.28.0@html-webpack-plugin/lib/loader.js!./src/index.html 18.2 kB {0} [built]
+Child extract-text-webpack-plugin:
+    chunk    {0} extract-text-webpack-plugin-output-filename 144 kB [entry] [rendered]
+        [0] ./~/.0.26.4@css-loader/lib/css-base.js 1.46 kB {0} [built]
+        [1] ./~/.0.26.4@css-loader!./src/css/bootstrap.css 138 kB {0} [built]
+        [2] ./~/.0.26.4@css-loader!./src/css/jquery.fullpage.min.css 3.9 kB {0} [built]
+        [3] ./~/.0.26.4@css-loader!./~/.1.3.3@postcss-loader!./~/.2.2.3@less-loader!./src/css/base.less 360 bytes {0} [built]
+Child extract-text-webpack-plugin:
+                        Asset     Size  Chunks                    Chunk Names
+                   img/bg.png   275 kB          [emitted]  [big]  
+    img/icon-product-list.png  64.1 kB          [emitted]         
+    chunk    {0} extract-text-webpack-plugin-output-filename 8.88 kB [entry] [rendered]
+        [0] ./~/.0.26.4@css-loader/lib/css-base.js 1.46 kB {0} [built]
+        [1] ./src/img/bg.png 56 bytes {0} [built]
+        [2] ./src/img/icon-product-list.png 71 bytes {0} [built]
+        [3] ./~/.0.26.4@css-loader!./~/.1.3.3@postcss-loader!./~/.2.2.3@less-loader!./src/css/style.less 7.3 kB {0} [built]

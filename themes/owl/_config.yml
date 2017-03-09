@@ -1,0 +1,69 @@
+# Header
+menu:
+  Docs: http://atlas.taobao.org/docs/
+  Source: /source.html
+  Document: /documentation.html
+  FAQ: /faq.html
+  Contact: /contact.html
+  Guide: http://tengine.taobao.org/book/
+  Buy Server: http://click.aliyun.com/m/4339/
+
+rss: /atom.xml
+
+# Sidebar
+sidebar: right
+widgets:
+- category
+- tag
+- tagcloud
+- archive
+- recent_posts
+
+# display widgets at the bottom of index pages (pagination == 2)
+index_widgets:
+# - category
+# - tagcloud
+# - archive
+
+# -------------------
+# OWL 主题配置项
+#
+# @DATE: 2014-09-09
+# -------------------
+OWL:
+  author:         "Designed by 阿里云UED AX"
+
+  CSS_TIMESTAMP:  "20150120-2R"     # 样式文件的时间戳
+  JS_TIMESTAMP:   "20150120-2R"     # 脚本文件的时间戳
+
+  PROJECT_VERSION:  "s"             # 版本定义
+  JS_DEBUG:         false           # 是否开启脚本调试，如开启，页面不加载合并后的脚本
+
+  SHOW_PAGE_ENV:    true            # 是否显示页面环境，如开启，HTML文档属性data-env则显示prod
+                                    # PHP 原始数值 true && OWL_JS_DEBUG
+  JS_SWITCH_THEME:  false           # 是否使用前端换肤，如果为`false`，则需要指定下面的主题名称
+  DEF_THEME:        "united"        # 是否使用前端换肤，如果为`false`，则需要指定下面的主题名称
+
+  JS_DEBUG_LEVEL:   5               # 页面调试输出信息等级，依赖`OWL_JS_DEBUG`，调试可以写`5`，禁用后自动置`0`
+
+  OWL_TPL_ROOT_DIR: ""              # 主题文件的根目录
+                                    # PHP 原始数值 get_bloginfo( 'template_directory' )
+  # 使用 `config.title` 代替
+
+  # 收集页面出错信息的REST接口，如果你不是开发者，请保持它为 `false`
+  # JS_ERROR_TRACKER: "http://test.soulteary.com/?r.gif"
+  JS_ERROR_TRACKER: false
+
+  USE_CUSTOM_NAV: true              # 是否使用自定义菜单
+
+  # 设置二套环境域名，如果不需要，请保持为`false`
+  DOMAIN_SETTING: false
+
+  ENV: "product"                    # 设置当前环境方案，(product|dev)
+
+  WEB_PREF: false                   # 是否开启性能收集
+
+  FEATURE_COVER: true               # 焦点图全局开关
+
+  # 无脚本跳转，如果开启，请填写要跳转的地址，否则请保持`false`
+  NO_SCRIPT_REDIRECT: false

@@ -1,0 +1,9 @@
+html {
+    font-size: 10px;
+    -webkit-user-select: none;
+    user-select: none;
+    box-sizing: border-box;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent
+}
+
