@@ -24,6 +24,7 @@ RUN apk add bash \
 ADD ./ /data/public
 COPY ./nginx.conf /etc/nginx/nginx.conf
 RUN rm /data/public/Dockerfile && \
-    rm /data/public/nginx.conf
+    rm /data/public/nginx.conf && \
+    rm /etc/nginx/conf.d/default.conf
 
 EXPOSE 80 443
