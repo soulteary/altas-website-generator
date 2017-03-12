@@ -6240,9 +6240,6 @@ button.close {
 .fourth-screen .item-product:hover .item-product-image {
   display: none;
 }
-.fourth-screen .item-product:hover .item-product-text {
-  display: block;
-}
 @media (min-width: 768px) {
   .fourth-screen {
     padding-bottom: 200px;
