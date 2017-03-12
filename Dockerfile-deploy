@@ -22,9 +22,15 @@ RUN apk add bash \
     && rm /var/cache/apk/*
 
 ADD ./ /data/public
+
+COPY ./__build_info__ /data/public/__build_info__
+COPY ./app.css /data/public/app.css
+COPY ./app.js /data/public/app.js
+COPY ./core.js /data/public/core.js
+COPY ./index.html /data/public/index.html
+COPY ./docs/_book/ /data/public/docs
 COPY ./nginx.conf /etc/nginx/nginx.conf
-RUN rm /data/public/Dockerfile && \
-    rm /data/public/nginx.conf && \
-    rm /etc/nginx/conf.d/default.conf
+
+RUN rm /etc/nginx/conf.d/default.conf
 
 EXPOSE 80 443
