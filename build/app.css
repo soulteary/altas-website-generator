@@ -6237,9 +6237,6 @@ button.close {
   margin: 0;
   padding: 0 1.2rem;
 }
-.fourth-screen .item-product:hover .item-product-image {
-  display: none;
-}
 @media (min-width: 768px) {
   .fourth-screen {
     padding-bottom: 200px;
