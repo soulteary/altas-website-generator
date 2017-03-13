@@ -6164,7 +6164,6 @@ button.close {
   height: 140px;
   overflow: hidden;
   margin: 1rem auto;
-  cursor: pointer;
 }
 .fourth-screen .item-product .item-product-text {
   background: #00B4AC;
@@ -6258,4 +6257,12 @@ button.close {
   float: right;
   margin-top: 2rem;
   width: 100px;
+}
+@media (min-width: 768px) {
+  .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
 }
