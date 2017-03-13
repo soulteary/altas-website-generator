@@ -6027,8 +6027,8 @@ button.close {
   color: #fff;
   font-weight: 100;
   font-size: 1.8rem;
-  line-height: 3rem;
-  margin-top: 4rem;
+  line-height: 1.8rem;
+  margin-top: 2rem;
 }
 @media (max-width: 768px) {
   .first-screen .navbar-collapse {
@@ -6190,19 +6190,19 @@ button.close {
 .fourth-screen .item-product .item-product-image .icon-image-taobao {
   background-position: -69px 0;
 }
-.fourth-screen .item-product .item-product-image .icon-image-uc {
+.fourth-screen .item-product .item-product-image .icon-image-ju {
   background-position: -136px 0;
 }
-.fourth-screen .item-product .item-product-image .icon-image-pig {
+.fourth-screen .item-product .item-product-image .icon-image-xia {
   background-position: -206px 0;
 }
-.fourth-screen .item-product .item-product-image .icon-image-1 {
-  background-position: -274px 0;
+.fourth-screen .item-product .item-product-image .icon-image-youku {
+  background-position: -275px 0;
 }
-.fourth-screen .item-product .item-product-image .icon-image-2 {
+.fourth-screen .item-product .item-product-image .icon-image-cai {
   background-position: -344px 0;
 }
-.fourth-screen .item-product .item-product-image .icon-image-alipay {
+.fourth-screen .item-product .item-product-image .icon-image-tian {
   background-position: -415px 0;
 }
 .fourth-screen .item-product .item-product-image .icon-image-aliyun {
